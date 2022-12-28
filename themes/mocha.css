@@ -1,0 +1,77 @@
+/*tab close button*/
+.Tab .close>svg {
+  fill: #eba0ac;
+}
+
+.Tab .close:hover>svg {
+  fill: #f38ba8;
+}
+
+/*containers*/
+#root[data-style="auto"] {
+  --container-fg: #cdd6f4;
+  --active-container-fg: #cdd6f4;
+}
+
+/*bookmarks*/
+#root[data-style="auto"] {
+  /*(bookmarks not styled yet)*/
+}
+
+/*tabs*/
+#root[data-style="auto"] {
+  --tabs-fg: #a6adc8;
+  --tabs-fg-hover: #bac2de;
+  --tabs-fg-active: #a6adc8;
+  --tabs-bg-hover: #11111b;
+  --tabs-bg-active: #181825;
+  --tabs-activated-bg: #181825;
+  --tabs-activated-fg: #cdd6f4;
+  --tabs-selected-bg: #89b4fa;
+  --tabs-selected-fg: #cdd6f4;
+  --tabs-loading-fg: #89dceb;
+  --tabs-update-badge-bg: #89dceb;
+  --tabs-lvl-indicator-bg: #313244;
+}
+
+/*navbar button*/
+#root[data-style="auto"] {
+  --nav-btn-fg: #cdd6f4;
+  --nav-btn-bg-focus: #6c7086;
+  --nav-btn-activated-bg: #181825;
+  /*(shadow not styled yet)*/
+  --nav-btn-update-badge-bg: #89dceb;
+}
+
+/*context menu*/
+#root[data-style="auto"] {
+  --ctx-menu-bg: #181825;
+  --ctx-menu-bg-hover: #313244;
+  --ctx-menu-warn-bg-hover: #eba0ac;
+  --ctx-menu-fg: #cdd6f4;
+  --ctx-menu-warn-fg: #eba0ac;
+  /*(shadow not styled yet)*/
+}
+
+/*base*/
+#root[data-style="auto"] {
+  --bg: #1e1e2e;
+  --title-fg: #cdd6f4;
+  --sub-title-fg: #cdd6f4;
+  --label-fg: #cdd6f4;
+  --label-fg-hover: #cdd6f4;
+  --label-fg-active: #a6adc8;
+  --info-fg: #7f849c;
+  --true-fg: #a6e3a1;
+  --false-fg: #eba0ac;
+  --false-bg: #f38ba8;
+  --active-fg: #89b4fa;
+  --inactive-fg: #313244;
+  --notice-fg: #89dceb;
+  --favicons-placeholder-bg: #313244;
+  --border-fg: #181825;
+  --border-active-fg: #11111b;
+  --border-flare-fg: #181825;
+  --progress-fg: #89dceb;
+  --progress-bg: #313244;
+}

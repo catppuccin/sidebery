@@ -1,0 +1,77 @@
+/*tab close button*/
+.Tab .close>svg {
+  fill: #ee99a0;
+}
+
+.Tab .close:hover>svg {
+  fill: #ed8796;
+}
+
+/*containers*/
+#root[data-style="auto"] {
+  --container-fg: #cad3f5;
+  --active-container-fg: #cad3f5;
+}
+
+/*bookmarks*/
+#root[data-style="auto"] {
+  /*(bookmarks not styled yet)*/
+}
+
+/*tabs*/
+#root[data-style="auto"] {
+  --tabs-fg: #a5adcb;
+  --tabs-fg-hover: #b8c0e0;
+  --tabs-fg-active: #a5adcb;
+  --tabs-bg-hover: #181926;
+  --tabs-bg-active: #1e2030;
+  --tabs-activated-bg: #1e2030;
+  --tabs-activated-fg: #cad3f5;
+  --tabs-selected-bg: #8aadf4;
+  --tabs-selected-fg: #cad3f5;
+  --tabs-loading-fg: #91d7e3;
+  --tabs-update-badge-bg: #91d7e3;
+  --tabs-lvl-indicator-bg: #363a4f;
+}
+
+/*navbar button*/
+#root[data-style="auto"] {
+  --nav-btn-fg: #cad3f5;
+  --nav-btn-bg-focus: #6e738d;
+  --nav-btn-activated-bg: #1e2030;
+  /*(shadow not styled yet)*/
+  --nav-btn-update-badge-bg: #91d7e3;
+}
+
+/*context menu*/
+#root[data-style="auto"] {
+  --ctx-menu-bg: #1e2030;
+  --ctx-menu-bg-hover: #363a4f;
+  --ctx-menu-warn-bg-hover: #ee99a0;
+  --ctx-menu-fg: #cad3f5;
+  --ctx-menu-warn-fg: #ee99a0;
+  /*(shadow not styled yet)*/
+}
+
+/*base*/
+#root[data-style="auto"] {
+  --bg: #24273a;
+  --title-fg: #cad3f5;
+  --sub-title-fg: #cad3f5;
+  --label-fg: #cad3f5;
+  --label-fg-hover: #cad3f5;
+  --label-fg-active: #a5adcb;
+  --info-fg: #8087a2;
+  --true-fg: #a6da95;
+  --false-fg: #ee99a0;
+  --false-bg: #ed8796;
+  --active-fg: #8aadf4;
+  --inactive-fg: #363a4f;
+  --notice-fg: #91d7e3;
+  --favicons-placeholder-bg: #363a4f;
+  --border-fg: #1e2030;
+  --border-active-fg: #181926;
+  --border-flare-fg: #1e2030;
+  --progress-fg: #91d7e3;
+  --progress-bg: #363a4f;
+}
