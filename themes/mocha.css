@@ -1,16 +1,45 @@
-/*tab close button*/
-.Tab .close>svg {
-  fill: #eba0ac;
+:root {
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #87b0f9;
+  --ctp-lavender: #b4befe;
+  --ctp-text: #c6d0f5;
+  --ctp-subtext1: #b3bcdf;
+  --ctp-subtext0: #a1a8c9;
+  --ctp-overlay2: #8e95b3;
+  --ctp-overlay1: #7b819d;
+  --ctp-overlay0: #696d86;
+  --ctp-surface2: #565970;
+  --ctp-surface1: #43465a;
+  --ctp-surface0: #313244;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
 }
 
-.Tab .close:hover>svg {
-  fill: #f38ba8;
+/*tab close button*/
+.Tab .close > svg {
+  fill: var(--ctp-maroon);
+}
+
+.Tab .close:hover > svg {
+  fill: var(--ctp-red);
 }
 
 /*containers*/
 #root[data-style="auto"] {
-  --container-fg: #cdd6f4;
-  --active-container-fg: #cdd6f4;
+  --container-fg: var(--ctp-text);
+  --active-container-fg: var(--ctp-text);
 }
 
 /*bookmarks*/
@@ -20,58 +49,58 @@
 
 /*tabs*/
 #root[data-style="auto"] {
-  --tabs-fg: #a6adc8;
-  --tabs-fg-hover: #bac2de;
-  --tabs-fg-active: #a6adc8;
-  --tabs-bg-hover: #11111b;
-  --tabs-bg-active: #181825;
-  --tabs-activated-bg: #181825;
-  --tabs-activated-fg: #cdd6f4;
-  --tabs-selected-bg: #89b4fa;
-  --tabs-selected-fg: #cdd6f4;
-  --tabs-loading-fg: #89dceb;
-  --tabs-update-badge-bg: #89dceb;
-  --tabs-lvl-indicator-bg: #313244;
+  --tabs-fg: var(--ctp-subtext0);
+  --tabs-fg-hover: var(--ctp-subtext1);
+  --tabs-fg-active: var(--ctp-rosewater);
+  --tabs-bg-hover: var(--ctp-crust);
+  --tabs-bg-active: var(--ctp-mantle);
+  --tabs-activated-bg: var(--ctp-mantle);
+  --tabs-activated-fg: var(--ctp-text);
+  --tabs-selected-bg: var(--ctp-blue);
+  --tabs-selected-fg: var(--ctp-crust);
+  --tabs-loading-fg: var(--ctp-blue);
+  --tabs-update-badge-bg: var(--ctp-blue);
+  --tabs-lvl-indicator-bg: var(--ctp-surface0);
 }
 
 /*navbar button*/
 #root[data-style="auto"] {
-  --nav-btn-fg: #cdd6f4;
-  --nav-btn-bg-focus: #6c7086;
-  --nav-btn-activated-bg: #181825;
+  --nav-btn-fg: var(--ctp-text);
+  --nav-btn-bg-focus: var(--ctp-overlay0);
+  --nav-btn-activated-bg: var(--ctp-mantle);
   /*(shadow not styled yet)*/
-  --nav-btn-update-badge-bg: #89dceb;
+  --nav-btn-update-badge-bg: var(--ctp-blue);
 }
 
 /*context menu*/
 #root[data-style="auto"] {
-  --ctx-menu-bg: #181825;
-  --ctx-menu-bg-hover: #313244;
-  --ctx-menu-warn-bg-hover: #eba0ac;
-  --ctx-menu-fg: #cdd6f4;
-  --ctx-menu-warn-fg: #eba0ac;
+  --ctx-menu-bg: var(--ctp-surface0);
+  --ctx-menu-bg-hover: var(--ctp-base);
+  --ctx-menu-warn-bg-hover: var(--ctp-maroon);
+  --ctx-menu-fg: var(--ctp-text);
+  --ctx-menu-warn-fg: var(--ctp-maroon);
   /*(shadow not styled yet)*/
 }
 
 /*base*/
 #root[data-style="auto"] {
-  --bg: #1e1e2e;
-  --title-fg: #cdd6f4;
-  --sub-title-fg: #cdd6f4;
-  --label-fg: #cdd6f4;
-  --label-fg-hover: #cdd6f4;
-  --label-fg-active: #a6adc8;
-  --info-fg: #7f849c;
-  --true-fg: #a6e3a1;
-  --false-fg: #eba0ac;
-  --false-bg: #f38ba8;
-  --active-fg: #89b4fa;
-  --inactive-fg: #313244;
-  --notice-fg: #89dceb;
-  --favicons-placeholder-bg: #313244;
-  --border-fg: #181825;
-  --border-active-fg: #11111b;
-  --border-flare-fg: #181825;
-  --progress-fg: #89dceb;
-  --progress-bg: #313244;
+  --bg: var(--ctp-base);
+  --title-fg: var(--ctp-text);
+  --sub-title-fg: var(--ctp-text);
+  --label-fg: var(--ctp-subtext0);
+  --label-fg-hover: var(--ctp-subtext1);
+  --label-fg-active: var(--ctp-text);
+  --info-fg: var(--ctp-sapphire);
+  --true-fg: var(--ctp-text);
+  --false-fg: var(--ctp-crust);
+  --false-bg: var(--ctp-red);
+  --active-fg: var(--ctp-sky);
+  --inactive-fg: var(--ctp-surface0);
+  --notice-fg: var(--ctp-sky);
+  --favicons-placeholder-bg: var(--ctp-surface0);
+  --border-fg: var(--ctp-crust);
+  --border-active-fg: var(--ctp-crust);
+  --border-flare-fg: var(--ctp-mantle);
+  --progress-fg: var(--ctp-sky);
+  --progress-bg: var(--ctp-surface0);
 }
