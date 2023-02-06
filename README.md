@@ -40,6 +40,8 @@
 2. Open sidebery settings > Styles editor
 3. Paste the css in the css editor
 
+⚠️ Make sure that the *Appearance* > *Color Theme* setting is set to `auto` in oder for the theme to apply properly.
+
 ## 💝 Thanks to
 
 - [thismoon](https://github.com/thismoon)
