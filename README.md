@@ -39,8 +39,13 @@
 1. Open the flavor css file from themes folder and copy it's content
 2. Open sidebery settings > Styles editor
 3. Paste the css in the css editor
+<details>
+<summary>
+4. Make sure your sidebery theme is set to default
+</summary>
 
-⚠️ Make sure that the *Appearance* > *Color Theme* setting is set to `auto` in oder for the theme to apply properly.
+![Help image](./assets/set-to-default.png)
+</details>
 
 ## 💝 Thanks to
 
