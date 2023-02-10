@@ -44,7 +44,19 @@
 
 /*bookmarks*/
 #root[data-style="auto"] {
-  /*(bookmarks not styled yet)*/
+  --bookmarks-node-title-fg: var(--ctp-subtext0);
+  --bookmarks-node-title-fg-hover: var(--ctp-subtext1);
+  --bookmarks-node-title-fg-active: var(--ctp-text);
+  --bookmarks-node-bg-hover: var(--ctp-crust);
+  --bookmarks-node-bg-active: var(--ctp-mantle);
+  --bookmarks-folder-closed-fg: var(--ctp-surface2);
+  --bookmarks-folder-closed-fg-hover: var(--ctp-sky);
+  --bookmarks-folder-closed-fg-active: var(--ctp-sky);
+  --bookmarks-folder-expanded-fg: var(--ctp-blue);
+  --bookmarks-folder-expanded-fg-hover: var(--ctp-blue);
+  --bookmarks-folder-expanded-fg-active: var(--ctp-blue);
+  --bookmarks-folder-empty-fg: var(--ctp-surface0);
+  --bookmarks-open-bookmark-fg: var(--ctp-blue);
 }
 
 /*tabs*/
@@ -82,6 +94,13 @@
   /*(shadow not styled yet)*/
 }
 
+/*buttons*/
+#root[data-style="auto"] {
+  --btn-bg: var(--ctp-blue);
+  --btn-bg-hover: var(--ctp-sapphire);
+  --btn-bg-active: var(--ctp-sky);
+}
+
 /*base*/
 #root[data-style="auto"] {
   --bg: var(--ctp-base);
@@ -91,11 +110,11 @@
   --label-fg-hover: var(--ctp-subtext1);
   --label-fg-active: var(--ctp-text);
   --info-fg: var(--ctp-sapphire);
-  --true-fg: var(--ctp-text);
-  --false-fg: var(--ctp-crust);
-  --false-bg: var(--ctp-red);
-  --active-fg: var(--ctp-sky);
-  --inactive-fg: var(--ctp-surface0);
+  --true-fg: var(--ctp-green);
+  --false-fg: var(--ctp-red);
+  --false-bg: var(--ctp-crust);
+  --active-fg: var(--ctp-blue);
+  --inactive-fg: var(--ctp-surface2);
   --notice-fg: var(--ctp-sky);
   --favicons-placeholder-bg: var(--ctp-surface0);
   --border-fg: var(--ctp-crust);
