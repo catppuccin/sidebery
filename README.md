@@ -1,3 +1,5 @@
+<h2 align="center">🚧 This repository has been archived. v5 and above users should use <a href="https://github.com/catppuccin/firefox">Catppuccin for Firefox</a> instead and sidebery will follow the theme 🚧</h2>
+
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
